@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 808" width="996" height="808" role="img" aria-label="La maison de retraite · 2e étage">
+<title>La maison de retraite · 2e étage</title>
+<style>
+svg{--bg:#f3f5f7;--paper:#ffffff;--ink:#1d2733;--muted:#5b6b7c;--line:#2c3a4a;--block:#c9d1da;--corridor:#eef4ea;--garden:#dcebd2;--snow:#e8f1f8;
+--guard:#d2532e;--duct:#6b56c9;--door:#c62f3b;--badge:#c98a0c;--spy:#13856a;--other:#7a8794;--prop:#b77a0c;--water:#3b8fd6;--hide:#2f7d4f;--outfit:#b0408a;--switch:#d4a20a;--cam:#2b6cb0;--poi:#4d5b6a}
+@media (prefers-color-scheme: dark){svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
+--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
+.room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
+.block{fill:var(--block);stroke:var(--line);stroke-width:.6}.low{fill:var(--block);fill-opacity:.45;stroke:var(--block)}
+.wall{stroke:var(--line);stroke-width:3.5;stroke-linecap:square}
+.door{stroke:var(--muted);stroke-width:2;stroke-dasharray:2 3}.door-badge{stroke:var(--badge);stroke-width:4;stroke-dasharray:4 3}.door-locked{stroke:var(--door);stroke-width:4;stroke-dasharray:4 3}
+.car{fill:var(--block);stroke:var(--line);stroke-width:1}.car.arrive{fill:var(--spy);fill-opacity:.25}.car.exit{fill:var(--guard);fill-opacity:.18}
+.liftmark{font-size:13px;fill:var(--ink)}
+.cone{fill:var(--guard);opacity:.17}.cone-o{fill:var(--other);opacity:.14}.camcone{fill:var(--cam);opacity:.16}.cam{fill:var(--cam)}
+.round{stroke:var(--guard);stroke-width:1.3;stroke-dasharray:5 4;fill:none}.stop{fill:var(--guard)}.arrow{stroke:var(--guard)}
+.ghost{fill:var(--guard);fill-opacity:.45;stroke:var(--guard);stroke-width:1.5}
+@media (prefers-reduced-motion: reduce){.ghost{display:none}}
+.guard{fill:var(--guard)}.other{fill:var(--other)}.down{fill:none;stroke:var(--guard);stroke-width:2;stroke-dasharray:3 2}
+.face{stroke:var(--guard);stroke-width:2.2;stroke-linecap:round}.face-o{stroke:var(--other);stroke-width:1.6;stroke-linecap:round}
+.spy{fill:var(--spy)}
+.duct{stroke:var(--duct);stroke-width:5;opacity:.8;stroke-linecap:round}.grate{fill:var(--paper);stroke:var(--duct);stroke-width:2}.grate.secret{stroke-dasharray:2 2}.riser{fill:var(--duct);fill-opacity:.25;stroke:var(--duct);stroke-width:2}
+.hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
+.reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
+.water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.poi{fill:var(--poi)}
+.scale{stroke:var(--ink);stroke-width:2}
+.title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
+.lbl{font-weight:600;fill:var(--ink);letter-spacing:.04em}
+.sub{font-size:11px;fill:var(--muted)}.poi-t{font-size:11px;fill:var(--poi)}.duct-t{fill:var(--duct)}.item-t,.prop-t{fill:var(--prop)}
+.gname{font-size:12px;font-weight:600;fill:var(--guard)}.oname{font-size:9px;fill:var(--other)}
+.ini{font-size:10px;font-weight:700;fill:var(--paper)}
+.leg{font-size:12px;fill:var(--muted)}
+</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect class="bg" x="0" y="0" width="996" height="808" rx="10"/>
+<text class="title" x="18" y="30">La maison de retraite · 2e étage</text>
+<text class="subtitle" x="18" y="50">Mission principale, au début de la partie · le bâtiment</text>
+<line class="scale" x1="828" y1="58" x2="978" y2="58"/><text class="sub" x="903" y="52" text-anchor="middle">5 m</text>
+<rect class="floor" x="18" y="86" width="960" height="600"/>
+<clipPath id="plan"><rect x="10" y="78" width="976" height="616"/></clipPath>
+<g clip-path="url(#plan)">
+<rect class="corr" x="18" y="338" width="960" height="96"/>
+<rect class="room" x="18" y="86" width="270" height="252"/>
+<rect class="room" x="348" y="86" width="240" height="252"/>
+<rect class="room" x="708" y="86" width="270" height="252"/>
+<rect class="room" x="18" y="434" width="270" height="252"/>
+<rect class="room" x="348" y="434" width="300" height="252"/>
+<rect class="room" x="648" y="434" width="330" height="252"/>
+<rect class="room" x="288" y="86" width="60" height="252"/>
+<rect class="room" x="588" y="86" width="60" height="252"/>
+<rect class="room" x="648" y="86" width="60" height="252"/>
+<rect class="room" x="288" y="434" width="60" height="252"/>
+<rect class="block" x="366" y="594.8" width="84" height="14.4"/>
+<rect class="low" x="414" y="576.2" width="48" height="10.8"/>
+<rect class="low" x="639.6" y="530" width="7.2" height="72"/>
+<rect class="block" x="606" y="558.5" width="18" height="27"/>
+<rect class="block" x="567" y="467" width="18" height="30"/>
+<rect class="block" x="603" y="467" width="18" height="30"/>
+<rect class="low" x="501" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="531" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="498" y="683.6" width="54" height="2.4"/>
+<rect class="block" x="842.4" y="494" width="7.2" height="192"/>
+<rect class="low" x="800.4" y="533" width="42" height="153"/>
+<rect class="block" x="800.4" y="533" width="42" height="153"/>
+<rect class="low" x="648" y="533" width="54" height="153"/>
+<rect class="block" x="648" y="533" width="54" height="153"/>
+<rect class="low" x="711" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="735" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="759" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="709.5" y="683.6" width="69" height="2.4"/>
+<rect class="low" x="924" y="533" width="54" height="153"/>
+<rect class="block" x="924" y="533" width="54" height="153"/>
+<rect class="low" x="969" y="470" width="8.4" height="54"/>
+<rect class="low" x="858" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="879" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="900" y="672.2" width="18" height="13.2"/>
+<rect class="low" x="856.5" y="683.6" width="63" height="2.4"/>
+<rect class="low" x="876.6" y="455" width="10.8" height="6"/>
+<rect class="low" x="252" y="321.2" width="36" height="15.6"/>
+<rect class="low" x="255" y="335.6" width="30" height="2.4"/>
+<rect class="low" x="390" y="321.2" width="36" height="15.6"/>
+<rect class="low" x="393" y="335.6" width="30" height="2.4"/>
+<rect class="low" x="888" y="321.2" width="36" height="15.6"/>
+<rect class="low" x="891" y="335.6" width="30" height="2.4"/>
+<rect class="low" x="228" y="670.4" width="36" height="15.6"/>
+<rect class="low" x="231" y="683.6" width="30" height="2.4"/>
+<rect class="car exit" x="36" y="338" width="60" height="96"/>
+<text class="liftmark" x="66" y="391" text-anchor="middle">⇅</text>
+<polygon class="cone" points="138,386 296.7,340.7 286.7,338 271.1,338 258.2,338 247.2,338 237.9,338 229.8,338 222.7,338 216.3,338 210.7,338 272.5,290.5 269.2,285.9 265.7,281.5 262.1,277.3 258.4,273.1 254.5,269.1 250.4,265.2 246.3,261.5 242,257.9"/>
+<line class="wall" x1="18" y1="434" x2="159" y2="434"/>
+<line class="wall" x1="207" y1="434" x2="474" y2="434"/>
+<line class="wall" x1="522" y1="434" x2="789" y2="434"/>
+<line class="wall" x1="837" y1="434" x2="978" y2="434"/>
+<line class="wall" x1="18" y1="338" x2="159" y2="338"/>
+<line class="wall" x1="207" y1="338" x2="474" y2="338"/>
+<line class="wall" x1="522" y1="338" x2="789" y2="338"/>
+<line class="wall" x1="837" y1="338" x2="978" y2="338"/>
+<line class="wall" x1="18" y1="434" x2="18" y2="338"/>
+<line class="wall" x1="978" y1="434" x2="978" y2="338"/>
+<line class="wall" x1="18" y1="338" x2="159" y2="338"/>
+<line class="wall" x1="207" y1="338" x2="288" y2="338"/>
+<line class="wall" x1="18" y1="86" x2="288" y2="86"/>
+<line class="wall" x1="18" y1="338" x2="18" y2="86"/>
+<line class="wall" x1="288" y1="338" x2="288" y2="170"/>
+<line class="wall" x1="288" y1="122" x2="288" y2="86"/>
+<line class="wall" x1="348" y1="338" x2="474" y2="338"/>
+<line class="wall" x1="522" y1="338" x2="588" y2="338"/>
+<line class="wall" x1="348" y1="86" x2="588" y2="86"/>
+<line class="wall" x1="348" y1="338" x2="348" y2="86"/>
+<line class="wall" x1="588" y1="338" x2="588" y2="170"/>
+<line class="wall" x1="588" y1="122" x2="588" y2="86"/>
+<line class="wall" x1="708" y1="338" x2="789" y2="338"/>
+<line class="wall" x1="837" y1="338" x2="978" y2="338"/>
+<line class="wall" x1="708" y1="86" x2="978" y2="86"/>
+<line class="wall" x1="708" y1="338" x2="708" y2="170"/>
+<line class="wall" x1="708" y1="122" x2="708" y2="86"/>
+<line class="wall" x1="978" y1="338" x2="978" y2="86"/>
+<line class="wall" x1="18" y1="686" x2="288" y2="686"/>
+<line class="wall" x1="18" y1="434" x2="159" y2="434"/>
+<line class="wall" x1="207" y1="434" x2="288" y2="434"/>
+<line class="wall" x1="18" y1="686" x2="18" y2="434"/>
+<line class="wall" x1="288" y1="686" x2="288" y2="650"/>
+<line class="wall" x1="288" y1="602" x2="288" y2="434"/>
+<line class="wall" x1="348" y1="686" x2="648" y2="686"/>
+<line class="wall" x1="348" y1="434" x2="474" y2="434"/>
+<line class="wall" x1="522" y1="434" x2="648" y2="434"/>
+<line class="wall" x1="348" y1="686" x2="348" y2="434"/>
+<line class="wall" x1="648" y1="686" x2="648" y2="434"/>
+<line class="wall" x1="648" y1="686" x2="978" y2="686"/>
+<line class="wall" x1="648" y1="434" x2="789" y2="434"/>
+<line class="wall" x1="837" y1="434" x2="978" y2="434"/>
+<line class="wall" x1="648" y1="686" x2="648" y2="434"/>
+<line class="wall" x1="978" y1="686" x2="978" y2="434"/>
+<line class="wall" x1="288" y1="338" x2="348" y2="338"/>
+<line class="wall" x1="288" y1="86" x2="348" y2="86"/>
+<line class="wall" x1="288" y1="338" x2="288" y2="170"/>
+<line class="wall" x1="288" y1="122" x2="288" y2="86"/>
+<line class="wall" x1="348" y1="338" x2="348" y2="86"/>
+<line class="wall" x1="588" y1="338" x2="648" y2="338"/>
+<line class="wall" x1="588" y1="86" x2="648" y2="86"/>
+<line class="wall" x1="588" y1="338" x2="588" y2="170"/>
+<line class="wall" x1="588" y1="122" x2="588" y2="86"/>
+<line class="wall" x1="648" y1="338" x2="648" y2="86"/>
+<line class="wall" x1="648" y1="338" x2="708" y2="338"/>
+<line class="wall" x1="648" y1="86" x2="708" y2="86"/>
+<line class="wall" x1="648" y1="338" x2="648" y2="86"/>
+<line class="wall" x1="708" y1="338" x2="708" y2="170"/>
+<line class="wall" x1="708" y1="122" x2="708" y2="86"/>
+<line class="wall" x1="288" y1="686" x2="348" y2="686"/>
+<line class="wall" x1="288" y1="434" x2="348" y2="434"/>
+<line class="wall" x1="288" y1="686" x2="288" y2="650"/>
+<line class="wall" x1="288" y1="602" x2="288" y2="434"/>
+<line class="wall" x1="348" y1="686" x2="348" y2="434"/>
+<line class="door" x1="159" y1="338" x2="207" y2="338"/>
+<line class="door" x1="474" y1="338" x2="522" y2="338"/>
+<line class="door" x1="789" y1="338" x2="837" y2="338"/>
+<line class="door" x1="159" y1="434" x2="207" y2="434"/>
+<line class="door-badge" x1="474" y1="434" x2="522" y2="434"/>
+<line class="door" x1="789" y1="434" x2="837" y2="434"/>
+<line class="door" x1="288" y1="170" x2="288" y2="122"/>
+<line class="door" x1="588" y1="170" x2="588" y2="122"/>
+<line class="door" x1="708" y1="170" x2="708" y2="122"/>
+<line class="door" x1="288" y1="650" x2="288" y2="602"/>
+<line class="duct" x1="438" y1="386" x2="438" y2="650"/>
+<line class="duct" x1="873" y1="386" x2="873" y2="650"/>
+<line class="duct" x1="318" y1="386" x2="318" y2="122"/>
+<line class="duct" x1="618" y1="386" x2="618" y2="122"/>
+<line class="duct" x1="678" y1="386" x2="678" y2="122"/>
+<line class="duct" x1="318" y1="386" x2="318" y2="650"/>
+<line class="duct" x1="210" y1="386" x2="318" y2="386"/>
+<line class="duct" x1="318" y1="386" x2="438" y2="386"/>
+<line class="duct" x1="438" y1="386" x2="618" y2="386"/>
+<line class="duct" x1="618" y1="386" x2="678" y2="386"/>
+<line class="duct" x1="678" y1="386" x2="873" y2="386"/>
+<circle class="riser" cx="210" cy="386" r="7"/>
+<rect class="poi" x="38.5" y="262.5" width="7" height="7" transform="rotate(45 42 266)"/>
+<rect class="poi" x="152.5" y="118.5" width="7" height="7" transform="rotate(45 156 122)"/>
+<rect class="poi" x="368.5" y="262.5" width="7" height="7" transform="rotate(45 372 266)"/>
+<rect class="poi" x="452.5" y="118.5" width="7" height="7" transform="rotate(45 456 122)"/>
+<rect class="poi" x="950.5" y="262.5" width="7" height="7" transform="rotate(45 954 266)"/>
+<rect class="poi" x="776.5" y="118.5" width="7" height="7" transform="rotate(45 780 122)"/>
+<rect class="poi" x="38.5" y="502.5" width="7" height="7" transform="rotate(45 42 506)"/>
+<rect class="poi" x="164.5" y="646.5" width="7" height="7" transform="rotate(45 168 650)"/>
+<circle class="outfit" cx="606" cy="650" r="7"/>
+<rect class="hide" x="72" y="140" width="12" height="12" rx="6"/>
+<rect class="hide" x="384" y="116" width="12" height="12" rx="6"/>
+<rect class="hide" x="912" y="140" width="12" height="12" rx="6"/>
+<rect class="hide" x="60" y="620" width="12" height="12" rx="6"/>
+<rect class="grate" x="432" y="644" width="12" height="12" rx="2"/>
+<rect class="hide" x="372" y="560" width="12" height="12" rx="6"/>
+<rect class="hide" x="312" y="350" width="12" height="12" rx="6"/>
+<rect class="grate" x="867" y="644" width="12" height="12" rx="2"/>
+<rect class="grate" x="312" y="116" width="12" height="12" rx="2"/>
+<rect class="grate" x="612" y="116" width="12" height="12" rx="2"/>
+<rect class="grate" x="672" y="116" width="12" height="12" rx="2"/>
+<rect class="grate" x="312" y="644" width="12" height="12" rx="2"/>
+<circle class="switch" cx="219" cy="314" r="5"/>
+<circle class="switch" cx="534" cy="314" r="5"/>
+<circle class="switch" cx="849" cy="314" r="5"/>
+<circle class="switch" cx="219" cy="458" r="5"/>
+<circle class="switch" cx="534" cy="458" r="5"/>
+<circle class="switch" cx="849" cy="458" r="5"/>
+<circle class="switch" cx="312" cy="110" r="5"/>
+<circle class="switch" cx="612" cy="110" r="5"/>
+<circle class="switch" cx="684" cy="110" r="5"/>
+<circle class="switch" cx="312" cy="590" r="5"/>
+<rect class="hide" x="384" y="632" width="12" height="12" rx="6"/>
+<rect class="hide" x="705" y="603.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="909" y="603.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="787.2" y="552.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="787.2" y="603.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="787.2" y="654.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="703.2" y="654.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="703.2" y="552.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="910.8" y="552.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="910.8" y="654.5" width="12" height="12" rx="6"/>
+<rect class="hide" x="30" y="140" width="12" height="12" rx="6"/>
+<rect class="hide" x="954" y="140" width="12" height="12" rx="6"/>
+<rect class="hide" x="360" y="464" width="12" height="12" rx="6"/>
+<rect class="hide" x="324" y="224" width="12" height="12" rx="6"/>
+<rect class="hide" x="618" y="314" width="12" height="12" rx="6"/>
+<rect class="hide" x="678" y="314" width="12" height="12" rx="6"/>
+<rect class="hide" x="318" y="446" width="12" height="12" rx="6"/>
+<line class="face-o" x1="114" y1="158" x2="114" y2="170"/>
+<circle class="other" cx="114" cy="158" r="6"/>
+<line class="face-o" x1="414" y1="158" x2="414" y2="170"/>
+<circle class="other" cx="414" cy="158" r="6"/>
+<line class="face-o" x1="738" y1="158" x2="738" y2="170"/>
+<circle class="other" cx="738" cy="158" r="6"/>
+<line class="face-o" x1="126" y1="614" x2="126" y2="602"/>
+<circle class="other" cx="126" cy="614" r="6"/>
+<line class="face-o" x1="186" y1="206" x2="195.9" y2="199.3"/>
+<circle class="other" cx="186" cy="206" r="6"/>
+<line class="round" x1="138" y1="386" x2="858" y2="386" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<circle class="ghost" r="6"><animateMotion dur="44s" repeatCount="indefinite" path="M138,386 L858,386 L138,386" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.045;0.5;0.545;1" calcMode="linear"/></circle>
+<circle class="stop" cx="138" cy="386" r="2.5"/>
+<circle class="stop" cx="858" cy="386" r="2.5"/>
+<line class="face" x1="138" y1="386" x2="150.5" y2="377.7"/>
+<circle class="guard" cx="138" cy="386" r="9"/>
+<line class="face-o" x1="810" y1="206" x2="807.7" y2="217.8"/>
+<circle class="other" cx="810" cy="206" r="6"/>
+<line class="face-o" x1="138" y1="206" x2="138" y2="194"/>
+<circle class="other" cx="138" cy="206" r="6"/>
+<line class="face-o" x1="258" y1="206" x2="255.3" y2="194.3"/>
+<circle class="other" cx="258" cy="206" r="6"/>
+<line class="face-o" x1="186" y1="206" x2="196.9" y2="201.1"/>
+<circle class="other" cx="186" cy="206" r="6"/>
+</g>
+<text class="lbl" x="498" y="353" text-anchor="middle" font-size="12">COULOIR</text>
+<text class="lbl" x="813" y="449" text-anchor="middle" font-size="12">TOILETTES</text>
+<text class="lbl" x="498" y="449" text-anchor="middle" font-size="12">LOCAL MÉNAGE</text>
+<text class="lbl" x="153" y="101" text-anchor="middle" font-size="12">CHAMBRE DE MAMIE VIPÈRE</text>
+<text class="lbl" x="843" y="101" text-anchor="middle" font-size="12">CHAMBRE DU BARON ROUGE</text>
+<text class="lbl" x="153" y="449" text-anchor="middle" font-size="12">CHAMBRE DU COLONEL KRAKEN</text>
+<text class="lbl" x="468" y="101" text-anchor="middle" font-size="12">CHAMBRE DU PROFESSEUR NÉANT</text>
+<text class="sub duct-t" x="196.6" y="375">gaine</text>
+<text class="poi-t" x="49" y="270">Télé</text>
+<text class="poi-t" x="163" y="126">Téléphone</text>
+<text class="poi-t" x="379" y="270">Télé</text>
+<text class="poi-t" x="463" y="126">Téléphone</text>
+<text class="poi-t" x="961" y="270">Télé</text>
+<text class="poi-t" x="787" y="126">Téléphone</text>
+<text class="poi-t" x="49" y="510">Télé</text>
+<text class="poi-t" x="175" y="654">Téléphone</text>
+<text class="ini" x="606" y="653.5" text-anchor="middle" font-size="9">T</text>
+<text class="sub" x="616" y="641">Tenue de ménage</text>
+<text class="oname" x="126" y="161.2">Mamie Vipère</text>
+<text class="oname" x="426" y="161.2">Professeur Néant</text>
+<text class="oname" x="750" y="161.2">Baron Rouge</text>
+<text class="oname" x="138" y="617.2">Colonel Kraken</text>
+<text class="oname" x="198" y="209.2">Nadine</text>
+<text class="ini" x="138" y="390" text-anchor="middle">H</text>
+<text class="gname" x="117.8" y="371">Hector</text>
+<text class="oname" x="822" y="209.2">Sylvie</text>
+<text class="oname" x="150" y="209.2">Fatou</text>
+<text class="oname" x="270" y="209.2">Marco</text>
+<text class="oname" x="160.4" y="194">Dr Lancelot</text>
+<rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Couloir, hall</text>
+<rect class="block" x="131.2" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="157.2" y="730">Bloc, mur plein (arrête le regard)</text>
+<rect class="low" x="372.7" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="398.7" y="730">Obstacle bas (on voit par-dessus)</text>
+<rect class="car exit" x="616.2" y="719" width="11" height="14"/><text class="leg" x="642.2" y="730">Ascenseur</text>
+<polygon class="cone" points="18,746 36,740 36,752"/><text class="leg" x="44" y="750">Son cône de vue (arrêté par les murs)</text>
+<line class="door" x1="285.6" y1="746" x2="303.6" y2="746"/><text class="leg" x="311.6" y="750">Porte</text>
+<line class="door-badge" x1="365.5" y1="746" x2="383.5" y2="746"/><text class="leg" x="391.5" y="750">Porte réservée (tenue ou badge)</text>
+<line class="duct" x1="602.3" y1="746" x2="620.3" y2="746"/><text class="leg" x="628.3" y="750">Conduit</text>
+<circle class="riser" cx="700" cy="746" r="6"/><text class="leg" x="718" y="750">Gaine entre les étages</text>
+<rect class="poi" x="22" y="762.5" width="7" height="7" transform="rotate(45 25.5 766)"/><text class="leg" x="44" y="770">Point d'intérêt</text>
+<circle class="outfit" cx="158.4" cy="766" r="6"/><text class="leg" x="176.4" y="770">Tenue à prendre</text>
+<rect class="hide" x="289.3" y="760.5" width="11" height="11" rx="5.5"/><text class="leg" x="315.3" y="770">Cachette</text>
+<rect class="grate" x="388.6" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="414.6" y="770">Grille de conduit</text>
+<circle class="switch" cx="535.9" cy="766" r="5"/><text class="leg" x="553.9" y="770">Interrupteur</text>
+<circle class="other" cx="661.1" cy="766" r="5"/><text class="leg" x="679.1" y="770">Autre personnage</text>
+<line class="round" x1="18" y1="786" x2="36" y2="786"/><text class="leg" x="44" y="790">Sa ronde (le point la parcourt), ses arrêts</text>
+<circle class="guard" cx="319.4" cy="786" r="6"/><text class="leg" x="337.4" y="790">Garde</text>
+</svg>

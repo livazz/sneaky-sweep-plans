@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 771 540" width="771" height="540" role="img" aria-label="Entraînement 2 · La neige">
+<title>Entraînement 2 · La neige</title>
+<style>
+svg{--bg:#f3f5f7;--paper:#ffffff;--ink:#1d2733;--muted:#5b6b7c;--line:#2c3a4a;--block:#c9d1da;--corridor:#eef4ea;--garden:#dcebd2;--snow:#e8f1f8;
+--guard:#d2532e;--duct:#6b56c9;--door:#c62f3b;--badge:#c98a0c;--spy:#13856a;--other:#7a8794;--prop:#b77a0c;--water:#3b8fd6;--hide:#2f7d4f;--outfit:#b0408a;--switch:#d4a20a;--cam:#2b6cb0;--poi:#4d5b6a}
+@media (prefers-color-scheme: dark){svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
+--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}}
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
+.room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
+.block{fill:var(--block);stroke:var(--line);stroke-width:.6}.low{fill:var(--block);fill-opacity:.45;stroke:var(--block)}
+.wall{stroke:var(--line);stroke-width:3.5;stroke-linecap:square}
+.door{stroke:var(--muted);stroke-width:2;stroke-dasharray:2 3}.door-badge{stroke:var(--badge);stroke-width:4;stroke-dasharray:4 3}.door-locked{stroke:var(--door);stroke-width:4;stroke-dasharray:4 3}
+.car{fill:var(--block);stroke:var(--line);stroke-width:1}.car.arrive{fill:var(--spy);fill-opacity:.25}.car.exit{fill:var(--guard);fill-opacity:.18}
+.liftmark{font-size:13px;fill:var(--ink)}
+.cone{fill:var(--guard);opacity:.17}.cone-o{fill:var(--other);opacity:.14}.camcone{fill:var(--cam);opacity:.16}.cam{fill:var(--cam)}
+.round{stroke:var(--guard);stroke-width:1.3;stroke-dasharray:5 4;fill:none}.stop{fill:var(--guard)}.arrow{stroke:var(--guard)}
+.ghost{fill:var(--guard);fill-opacity:.45;stroke:var(--guard);stroke-width:1.5}
+@media (prefers-reduced-motion: reduce){.ghost{display:none}}
+.guard{fill:var(--guard)}.other{fill:var(--other)}.down{fill:none;stroke:var(--guard);stroke-width:2;stroke-dasharray:3 2}
+.face{stroke:var(--guard);stroke-width:2.2;stroke-linecap:round}.face-o{stroke:var(--other);stroke-width:1.6;stroke-linecap:round}
+.spy{fill:var(--spy)}
+.duct{stroke:var(--duct);stroke-width:5;opacity:.8;stroke-linecap:round}.grate{fill:var(--paper);stroke:var(--duct);stroke-width:2}.grate.secret{stroke-dasharray:2 2}.riser{fill:var(--duct);fill-opacity:.25;stroke:var(--duct);stroke-width:2}
+.hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
+.reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
+.water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.poi{fill:var(--poi)}
+.scale{stroke:var(--ink);stroke-width:2}
+.title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
+.lbl{font-weight:600;fill:var(--ink);letter-spacing:.04em}
+.sub{font-size:11px;fill:var(--muted)}.poi-t{font-size:11px;fill:var(--poi)}.duct-t{fill:var(--duct)}.item-t,.prop-t{fill:var(--prop)}
+.gname{font-size:12px;font-weight:600;fill:var(--guard)}.oname{font-size:9px;fill:var(--other)}
+.ini{font-size:10px;font-weight:700;fill:var(--paper)}
+.leg{font-size:12px;fill:var(--muted)}
+</style>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect class="bg" x="0" y="0" width="771" height="540" rx="10"/>
+<text class="title" x="18" y="30">Entraînement 2 · La neige</text>
+<text class="subtitle" x="18" y="50">Arrivée à l'ouest, sortie à l'est · dans la neige</text>
+<line class="scale" x1="643" y1="58" x2="753" y2="58"/><text class="sub" x="698" y="52" text-anchor="middle">5 m</text>
+<rect class="floor" x="18.1" y="86" width="734.8" height="352"/>
+<clipPath id="plan"><rect x="10.1" y="78" width="750.8" height="368"/></clipPath>
+<g clip-path="url(#plan)">
+<rect class="snow" x="18.1" y="86" width="734.8" height="352"/>
+<rect class="block" x="317.3" y="182.8" width="352" height="26.4"/>
+<rect class="block" x="317.3" y="314.8" width="352" height="26.4"/>
+<rect class="block" x="202.9" y="121.2" width="44" height="35.2"/>
+<rect class="block" x="202.9" y="367.6" width="44" height="35.2"/>
+<rect class="void" x="18.1" y="86" width="44" height="140.8"/>
+<rect class="void" x="18.1" y="297.2" width="44" height="140.8"/>
+<rect class="void" x="708.9" y="86" width="44" height="140.8"/>
+<rect class="void" x="708.9" y="297.2" width="44" height="140.8"/>
+<rect class="car arrive" x="18.1" y="226.8" width="44" height="70.4"/>
+<text class="liftmark" x="40.1" y="267" text-anchor="middle">⇅</text>
+<rect class="car exit" x="708.9" y="226.8" width="44" height="70.4"/>
+<text class="liftmark" x="730.9" y="267" text-anchor="middle">⇅</text>
+<polygon class="cone" points="282.1,112.4 397.5,148.8 398.7,144.8 399.7,140.9 400.6,136.9 401.4,132.8 402,128.8 402.5,124.7 402.8,120.6 403,116.5 403.1,112.4 403,108.3 402.8,104.2 402.5,100.1 402,96 401.4,92 400.6,87.9 391.1,86 376.9,86 365.8,86"/>
+<polygon class="cone" points="612.1,262 496.7,225.6 495.5,229.6 494.5,233.5 493.6,237.5 492.8,241.6 492.2,245.6 491.7,249.7 491.4,253.8 491.2,257.9 491.1,262 491.2,266.1 491.4,270.2 491.7,274.3 492.2,278.4 492.8,282.4 493.6,286.5 494.5,290.5 495.5,294.4 496.7,298.4"/>
+<line class="wall" x1="62.1" y1="438" x2="708.9" y2="438"/>
+<line class="wall" x1="708.9" y1="438" x2="708.9" y2="297.2"/>
+<line class="wall" x1="708.9" y1="297.2" x2="752.9" y2="297.2"/>
+<line class="wall" x1="752.9" y1="297.2" x2="752.9" y2="226.8"/>
+<line class="wall" x1="752.9" y1="226.8" x2="708.9" y2="226.8"/>
+<line class="wall" x1="708.9" y1="226.8" x2="708.9" y2="86"/>
+<line class="wall" x1="708.9" y1="86" x2="62.1" y2="86"/>
+<line class="wall" x1="62.1" y1="86" x2="62.1" y2="226.8"/>
+<line class="wall" x1="62.1" y1="297.2" x2="62.1" y2="438"/>
+<line class="wall" x1="62.1" y1="226.8" x2="18.1" y2="226.8"/>
+<line class="wall" x1="18.1" y1="226.8" x2="18.1" y2="297.2"/>
+<line class="wall" x1="18.1" y1="297.2" x2="62.1" y2="297.2"/>
+<circle class="spy" cx="40.1" cy="262" r="8"/>
+<line class="round" x1="282.1" y1="112.4" x2="282.1" y2="411.6" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<circle class="ghost" r="6"><animateMotion dur="30.7s" repeatCount="indefinite" path="M282.1,112.4 L282.1,411.6 L282.1,112.4" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.13;0.5;0.63;1" calcMode="linear"/></circle>
+<circle class="stop" cx="282.1" cy="112.4" r="2.5"/>
+<circle class="stop" cx="282.1" cy="411.6" r="2.5"/>
+<line class="face" x1="282.1" y1="112.4" x2="297.1" y2="112.4"/>
+<circle class="guard" cx="282.1" cy="112.4" r="9"/>
+<line class="face" x1="612.1" y1="262" x2="597.1" y2="262"/>
+<circle class="guard" cx="612.1" cy="262" r="9"/>
+</g>
+<text class="sub" x="40.1" y="311.2">ascenseur d'arrivée</text>
+<text class="sub" x="626.2" y="311.2">ascenseur de sortie</text>
+<text class="ini" x="40.1" y="266" text-anchor="middle">E</text>
+<text class="ini" x="282.1" y="116.4" text-anchor="middle">G</text>
+<text class="gname" x="297.1" y="116.6">Gaston</text>
+<text class="ini" x="612.1" y="266" text-anchor="middle">I</text>
+<text class="gname" x="627.1" y="266.2">Igor</text>
+<rect class="snow" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Neige : chaque pas laisse une trace</text>
+<rect class="block" x="262.5" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="288.5" y="482">Bloc, mur plein (arrête le regard)</text>
+<rect class="car arrive" x="504" y="471" width="11" height="14"/><text class="leg" x="530" y="482">Ascenseur d'arrivée</text>
+<rect class="car exit" x="18" y="491" width="11" height="14"/><text class="leg" x="44" y="502">Ascenseur de sortie</text>
+<polygon class="cone" points="179.7,498 197.7,492 197.7,504"/><text class="leg" x="205.7" y="502">Son cône de vue (arrêté par les murs)</text>
+<circle class="spy" cx="455.3" cy="498" r="6"/><text class="leg" x="473.3" y="502">L'espion, au départ</text>
+<line class="round" x1="18" y1="518" x2="36" y2="518"/><text class="leg" x="44" y="522">Sa ronde (le point la parcourt), ses arrêts</text>
+<circle class="guard" cx="319.4" cy="518" r="6"/><text class="leg" x="337.4" y="522">Garde</text>
+<circle class="guard" cx="399.3" cy="518" r="5"/><line class="face" x1="399.3" y1="518" x2="409.3" y2="518"/><text class="leg" x="417.3" y="522">Garde posté (le trait : son regard)</text>
+</svg>
