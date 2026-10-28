@@ -9,15 +9,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap">
 <style>
 /* layout: one column of plans, a sticky strip of level chips to jump between them */
+/* always dark, as the plans */
 :root {
-  --bg: #f3f5f7; --paper: #ffffff; --ink: #1d2733; --muted: #5b6b7c; --rule: #c9d1da; --accent: #d2532e; --chip: #e6ebf0;
+  --bg: #11171d; --paper: #18212a; --ink: #e4e9ee; --muted: #9aa9b8; --rule: #3a4552; --accent: #f07a54; --chip: #222d38; color-scheme: dark;
   --display: "Barlow Semi Condensed", "Arial Narrow", sans-serif;
   --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --bg: #11171d; --paper: #18212a; --ink: #e4e9ee; --muted: #9aa9b8; --rule: #3a4552; --accent: #f07a54; --chip: #222d38; color-scheme: dark } }
-:root[data-theme="dark"] {
-  --bg: #11171d; --paper: #18212a; --ink: #e4e9ee; --muted: #9aa9b8; --rule: #3a4552; --accent: #f07a54; --chip: #222d38; color-scheme: dark }
 body { background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
 .wrap { max-width: 1120px; margin: 0 auto; padding-block: 24px 56px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 28px; }
@@ -133,7 +130,7 @@ section.plan p { margin: 0; max-width: 72ch; }
     <p>Six private rooms: Madame Shadow, the Mask, Admiral Tempest, Countess Venom, Lady Mustache and Doctor Gumdrop. No guard at the start of the game.</p>
     <div class="frame"><img src="plans/mission-5-3e-etage.svg" alt="Plan of the manor, 3rd Floor"></div></section>
 
-  <p class="note">The plans are drawn from the game itself by the Unity editor. They follow the device's light or dark theme.</p>
+  <p class="note">The plans are drawn from the game itself by the Unity editor.</p>
 </div>
 </body>
 </html>

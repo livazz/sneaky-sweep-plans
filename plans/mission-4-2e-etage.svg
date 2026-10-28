@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 788" width="996" height="788" role="img" aria-label="Golden Wisteria Manor · 2nd Floor">
 <title>Golden Wisteria Manor · 2nd Floor</title>
 <style>
-svg{--bg:#f3f5f7;--paper:#ffffff;--ink:#1d2733;--muted:#5b6b7c;--line:#2c3a4a;--block:#c9d1da;--corridor:#eef4ea;--garden:#dcebd2;--snow:#e8f1f8;
---guard:#d2532e;--duct:#6b56c9;--door:#c62f3b;--badge:#c98a0c;--spy:#13856a;--other:#7a8794;--prop:#b77a0c;--water:#3b8fd6;--hide:#2f7d4f;--outfit:#b0408a;--switch:#d4a20a;--cam:#2b6cb0;--poi:#4d5b6a}
-@media (prefers-color-scheme: dark){svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}}
+svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
+--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
