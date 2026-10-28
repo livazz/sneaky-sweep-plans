@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 808" width="996" height="808" role="img" aria-label="La maison de retraite · 1er sous-sol">
-<title>La maison de retraite · 1er sous-sol</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 788" width="996" height="788" role="img" aria-label="Golden Wisteria Manor · Basement 1">
+<title>Golden Wisteria Manor · Basement 1</title>
 <style>
 svg{--bg:#f3f5f7;--paper:#ffffff;--ink:#1d2733;--muted:#5b6b7c;--line:#2c3a4a;--block:#c9d1da;--corridor:#eef4ea;--garden:#dcebd2;--snow:#e8f1f8;
 --guard:#d2532e;--duct:#6b56c9;--door:#c62f3b;--badge:#c98a0c;--spy:#13856a;--other:#7a8794;--prop:#b77a0c;--water:#3b8fd6;--hide:#2f7d4f;--outfit:#b0408a;--switch:#d4a20a;--cam:#2b6cb0;--poi:#4d5b6a}
@@ -34,9 +34,9 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .leg{font-size:12px;fill:var(--muted)}
 </style>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-<rect class="bg" x="0" y="0" width="996" height="808" rx="10"/>
-<text class="title" x="18" y="30">La maison de retraite · 1er sous-sol</text>
-<text class="subtitle" x="18" y="50">Mission principale, au début de la partie · le bâtiment</text>
+<rect class="bg" x="0" y="0" width="996" height="788" rx="10"/>
+<text class="title" x="18" y="30">Golden Wisteria Manor · Basement 1</text>
+<text class="subtitle" x="18" y="50">Main mission, at the start of the game · the building</text>
 <line class="scale" x1="828" y1="58" x2="978" y2="58"/><text class="sub" x="903" y="52" text-anchor="middle">5 m</text>
 <rect class="floor" x="18" y="86" width="960" height="600"/>
 <clipPath id="plan"><rect x="10" y="78" width="976" height="616"/></clipPath>
@@ -197,44 +197,46 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <line class="face-o" x1="258" y1="518" x2="251.6" y2="528.2"/>
 <circle class="other" cx="258" cy="518" r="6"/>
 </g>
-<text class="lbl" x="498" y="353" text-anchor="middle" font-size="12">COULOIR</text>
-<text class="lbl" x="183" y="101" text-anchor="middle" font-size="12">LINGERIE</text>
-<text class="lbl" x="813" y="101" text-anchor="middle" font-size="12">SALLE DE GARDE</text>
-<text class="lbl" x="183" y="449" text-anchor="middle" font-size="12">VESTIAIRE DU PERSONNEL</text>
-<text class="lbl" x="813" y="449" text-anchor="middle" font-size="12">TOILETTES</text>
-<text class="lbl" x="498" y="101" text-anchor="middle" font-size="12">CHAUFFERIE</text>
-<text class="lbl" x="498" y="449" text-anchor="middle" font-size="12">CAVE À VIN</text>
-<text class="sub duct-t" x="196.6" y="375">gaine</text>
-<text class="poi-t" x="745" y="126">Téléphone</text>
-<text class="poi-t" x="613" y="654">Vieux poste</text>
+<text class="lbl" x="498" y="353" text-anchor="middle" font-size="12">CORRIDOR</text>
+<text class="lbl" x="183" y="101" text-anchor="middle" font-size="12">LAUNDRY ROOM</text>
+<text class="lbl" x="813" y="101" text-anchor="middle" font-size="12">GUARD ROOM</text>
+<text class="lbl" x="183" y="449" text-anchor="middle" font-size="12">STAFF LOCKER ROOM</text>
+<text class="lbl" x="813" y="449" text-anchor="middle" font-size="12">RESTROOMS</text>
+<text class="lbl" x="498" y="101" text-anchor="middle" font-size="12">BOILER ROOM</text>
+<text class="lbl" x="498" y="449" text-anchor="middle" font-size="12">WINE CELLAR</text>
+<text class="sub duct-t" x="195.2" y="375">shaft</text>
+<text class="poi-t" x="745" y="126">Phone</text>
+<text class="poi-t" x="850.8" y="139">Guards' coffee machine</text>
+<text class="poi-t" x="613" y="654">Old radio</text>
 <text class="ini" x="66" y="653.5" text-anchor="middle" font-size="9">T</text>
-<text class="sub" x="76" y="641">Blouse d'infirmier</text>
+<text class="sub" x="76" y="654">Nurse scrubs</text>
 <text class="ini" x="258" y="653.5" text-anchor="middle" font-size="9">T</text>
-<text class="sub" x="268" y="654">Tenue de cuisinier</text>
+<text class="sub" x="268" y="654">Cook outfit</text>
 <text class="ini" x="942" y="305.5" text-anchor="middle" font-size="9">T</text>
-<text class="poi-t" x="565" y="210">Le disjoncteur général</text>
-<text class="poi-t" x="831" y="174">Le réveil de la relève</text>
-<text class="poi-t" x="535" y="114">armoire à masques à gaz</text>
-<text class="poi-t" x="421" y="139">vanne d'arrivée d'eau</text>
-<text class="poi-t" x="793" y="210">enregistreur des caméras</text>
+<text class="sub" x="901.8" y="319">Guard uniform</text>
+<text class="poi-t" x="565" y="210">The main circuit breaker</text>
+<text class="poi-t" x="786.5" y="174">The shift-change alarm clock</text>
+<text class="poi-t" x="574.7" y="114">gas mask cabinet</text>
+<text class="poi-t" x="421" y="139">water main valve</text>
+<text class="poi-t" x="793" y="210">camera recorder</text>
 <text class="ini" x="738" y="246" text-anchor="middle">G</text>
 <text class="gname" x="753" y="246.2">Gaston</text>
 <text class="oname" x="270" y="521.2">Gilbert</text>
-<rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Couloir, hall</text>
-<rect class="block" x="131.2" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="157.2" y="730">Bloc, mur plein (arrête le regard)</text>
-<rect class="low" x="372.7" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="398.7" y="730">Obstacle bas (on voit par-dessus)</text>
-<rect class="car exit" x="616.2" y="719" width="11" height="14"/><text class="leg" x="642.2" y="730">Ascenseur</text>
-<polygon class="cone" points="18,746 36,740 36,752"/><text class="leg" x="44" y="750">Son cône de vue (arrêté par les murs)</text>
-<line class="door-badge" x1="285.6" y1="746" x2="303.6" y2="746"/><text class="leg" x="311.6" y="750">Porte réservée (tenue ou badge)</text>
-<line class="door" x1="522.4" y1="746" x2="540.4" y2="746"/><text class="leg" x="548.4" y="750">Porte</text>
-<line class="duct" x1="602.3" y1="746" x2="620.3" y2="746"/><text class="leg" x="628.3" y="750">Conduit</text>
-<circle class="riser" cx="700" cy="746" r="6"/><text class="leg" x="718" y="750">Gaine entre les étages</text>
-<rect class="poi" x="22" y="762.5" width="7" height="7" transform="rotate(45 25.5 766)"/><text class="leg" x="44" y="770">Point d'intérêt</text>
-<circle class="outfit" cx="158.4" cy="766" r="6"/><text class="leg" x="176.4" y="770">Tenue à prendre</text>
-<rect class="hide" x="289.3" y="760.5" width="11" height="11" rx="5.5"/><text class="leg" x="315.3" y="770">Cachette</text>
-<rect class="grate" x="388.6" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="414.6" y="770">Grille de conduit</text>
-<circle class="switch" cx="535.9" cy="766" r="5"/><text class="leg" x="553.9" y="770">Interrupteur</text>
-<circle class="guard" cx="661.1" cy="766" r="5"/><line class="face" x1="661.1" y1="766" x2="671.1" y2="766"/><text class="leg" x="679.1" y="770">Garde posté (le trait : son regard)</text>
-<circle class="guard" cx="26" cy="786" r="6"/><text class="leg" x="44" y="790">Garde</text>
-<circle class="other" cx="105.8" cy="786" r="5"/><text class="leg" x="123.8" y="790">Autre personnage</text>
+<rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Corridor, hall</text>
+<rect class="block" x="140.8" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="166.8" y="730">Block, solid wall (stops sight)</text>
+<rect class="low" x="359.5" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="385.5" y="730">Low obstacle (seen over)</text>
+<rect class="car exit" x="554.4" y="719" width="11" height="14"/><text class="leg" x="580.4" y="730">Lift</text>
+<polygon class="cone" points="624.6,726 642.6,720 642.6,732"/><text class="leg" x="650.6" y="730">Their cone of sight (stopped by walls)</text>
+<line class="door-badge" x1="18" y1="746" x2="36" y2="746"/><text class="leg" x="44" y="750">Restricted door (outfit or badge)</text>
+<line class="door" x1="261.5" y1="746" x2="279.5" y2="746"/><text class="leg" x="287.5" y="750">Door</text>
+<line class="duct" x1="334.9" y1="746" x2="352.9" y2="746"/><text class="leg" x="360.9" y="750">Duct</text>
+<circle class="riser" cx="416.2" cy="746" r="6"/><text class="leg" x="434.2" y="750">Shaft between floors</text>
+<rect class="poi" x="584.1" y="742.5" width="7" height="7" transform="rotate(45 587.6 746)"/><text class="leg" x="606.1" y="750">Point of interest</text>
+<circle class="outfit" cx="733.7" cy="746" r="6"/><text class="leg" x="751.7" y="750">Outfit to take</text>
+<rect class="hide" x="855" y="740.5" width="11" height="11" rx="5.5"/><text class="leg" x="881" y="750">Hiding spot</text>
+<rect class="grate" x="18" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="44" y="770">Duct grate</text>
+<circle class="switch" cx="135.4" cy="766" r="5"/><text class="leg" x="153.4" y="770">Light switch</text>
+<circle class="guard" cx="255.2" cy="766" r="5"/><line class="face" x1="255.2" y1="766" x2="265.2" y2="766"/><text class="leg" x="273.2" y="770">Guard at a post (the line: where they look)</text>
+<circle class="guard" cx="549.4" cy="766" r="6"/><text class="leg" x="567.4" y="770">Guard</text>
+<circle class="other" cx="629.3" cy="766" r="5"/><text class="leg" x="647.3" y="770">Other character</text>
 </svg>

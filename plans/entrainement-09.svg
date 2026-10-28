@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 771 540" width="771" height="540" role="img" aria-label="Entraînement 9 · Le corps">
-<title>Entraînement 9 · Le corps</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 771 540" width="771" height="540" role="img" aria-label="Training 9 · Dead Weight">
+<title>Training 9 · Dead Weight</title>
 <style>
 svg{--bg:#f3f5f7;--paper:#ffffff;--ink:#1d2733;--muted:#5b6b7c;--line:#2c3a4a;--block:#c9d1da;--corridor:#eef4ea;--garden:#dcebd2;--snow:#e8f1f8;
 --guard:#d2532e;--duct:#6b56c9;--door:#c62f3b;--badge:#c98a0c;--spy:#13856a;--other:#7a8794;--prop:#b77a0c;--water:#3b8fd6;--hide:#2f7d4f;--outfit:#b0408a;--switch:#d4a20a;--cam:#2b6cb0;--poi:#4d5b6a}
@@ -35,8 +35,8 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 </style>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 <rect class="bg" x="0" y="0" width="771" height="540" rx="10"/>
-<text class="title" x="18" y="30">Entraînement 9 · Le corps</text>
-<text class="subtitle" x="18" y="50">Arrivée à l'est, sortie à l'ouest</text>
+<text class="title" x="18" y="30">Training 9 · Dead Weight</text>
+<text class="subtitle" x="18" y="50">Arrival in the east, exit in the west</text>
 <line class="scale" x1="643" y1="58" x2="753" y2="58"/><text class="sub" x="698" y="52" text-anchor="middle">5 m</text>
 <rect class="floor" x="18.1" y="86" width="734.8" height="352"/>
 <clipPath id="plan"><rect x="10.1" y="78" width="750.8" height="368"/></clipPath>
@@ -77,21 +77,21 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <line class="face" x1="264.5" y1="262" x2="249.5" y2="262"/>
 <circle class="guard" cx="264.5" cy="262" r="9"/>
 </g>
-<text class="sub" x="626.4" y="311.2">ascenseur d'arrivée</text>
-<text class="sub" x="40.1" y="311.2">ascenseur de sortie</text>
-<text class="sub" x="374.7" y="277">pile de draps du couloir</text>
+<text class="sub" x="673.7" y="311.2">arrival lift</text>
+<text class="sub" x="40.1" y="311.2">exit lift</text>
+<text class="sub" x="374.7" y="277">pile of sheets</text>
 <text class="ini" x="730.9" y="266" text-anchor="middle">E</text>
 <text class="ini" x="154.5" y="266" text-anchor="middle">B</text>
 <text class="gname" x="99.2" y="266.2">Brutus</text>
 <text class="ini" x="264.5" y="266" text-anchor="middle">N</text>
 <text class="gname" x="279.5" y="266.2">Norbert</text>
-<rect class="block" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Bloc, mur plein (arrête le regard)</text>
-<rect class="car arrive" x="259.5" y="471" width="11" height="14"/><text class="leg" x="285.5" y="482">Ascenseur d'arrivée</text>
-<rect class="car exit" x="420.9" y="471" width="11" height="14"/><text class="leg" x="446.9" y="482">Ascenseur de sortie</text>
-<polygon class="cone" points="18,498 36,492 36,504"/><text class="leg" x="44" y="502">Son cône de vue (arrêté par les murs)</text>
-<rect class="hide" x="285.6" y="492.5" width="11" height="11" rx="5.5"/><text class="leg" x="311.6" y="502">Cachette</text>
-<circle class="spy" cx="392.9" cy="498" r="6"/><text class="leg" x="410.9" y="502">L'espion, au départ</text>
-<line class="round" x1="18" y1="518" x2="36" y2="518"/><text class="leg" x="44" y="522">Sa ronde (le point la parcourt), ses arrêts</text>
-<circle class="guard" cx="319.4" cy="518" r="6"/><text class="leg" x="337.4" y="522">Garde</text>
-<circle class="guard" cx="399.3" cy="518" r="5"/><line class="face" x1="399.3" y1="518" x2="409.3" y2="518"/><text class="leg" x="417.3" y="522">Garde posté (le trait : son regard)</text>
+<rect class="block" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Block, solid wall (stops sight)</text>
+<rect class="car arrive" x="236.7" y="471" width="11" height="14"/><text class="leg" x="262.7" y="482">Arrival lift</text>
+<rect class="car exit" x="346.5" y="471" width="11" height="14"/><text class="leg" x="372.5" y="482">Exit lift</text>
+<polygon class="cone" points="440,478 458,472 458,484"/><text class="leg" x="466" y="482">Their cone of sight (stopped by walls)</text>
+<rect class="hide" x="18" y="492.5" width="11" height="11" rx="5.5"/><text class="leg" x="44" y="502">Hiding spot</text>
+<circle class="spy" cx="135.6" cy="498" r="6"/><text class="leg" x="153.6" y="502">The spy, at the start</text>
+<line class="round" x1="296.5" y1="498" x2="314.5" y2="498"/><text class="leg" x="322.5" y="502">Their round (the dot walks it), its stops</text>
+<circle class="guard" cx="585.6" cy="498" r="6"/><text class="leg" x="603.6" y="502">Guard</text>
+<circle class="guard" cx="26" cy="518" r="5"/><line class="face" x1="26" y1="518" x2="36" y2="518"/><text class="leg" x="44" y="522">Guard at a post (the line: where they look)</text>
 </svg>
