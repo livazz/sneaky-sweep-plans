@@ -2,7 +2,7 @@
 <title>Golden Wisteria Manor · The Grounds</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -48,6 +52,18 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <rect class="garden" x="18" y="319.1" width="1040" height="717.2"/>
 <rect class="garden" x="523.7" y="86" width="28.7" height="233.1"/>
 <rect class="garden" x="552.3" y="290.4" width="28.7" height="25.1"/>
+<rect class="mat" x="478.5" y="1105.6" width="11.5" height="4.7"/>
+<rect class="mat" x="478.5" y="1113.1" width="11.5" height="4.7"/>
+<rect class="mat" x="626.4" y="1105.6" width="11.5" height="4.7"/>
+<rect class="mat" x="626.4" y="1113.1" width="11.5" height="4.7"/>
+<rect class="mat" x="438.1" y="1141.8" width="11.5" height="4.7"/>
+<rect class="mat" x="438.1" y="1134.2" width="11.5" height="4.7"/>
+<rect class="mat" x="532.3" y="1141.8" width="11.5" height="4.7"/>
+<rect class="mat" x="532.3" y="1134.2" width="11.5" height="4.7"/>
+<rect class="mat" x="626.4" y="1141.8" width="11.5" height="4.7"/>
+<rect class="mat" x="626.4" y="1134.2" width="11.5" height="4.7"/>
+<rect class="mat" x="478.8" y="1038" width="10.8" height="6.1"/>
+<rect class="mat" x="554" y="297.6" width="6.1" height="10.8"/>
 <rect class="low" x="523.7" y="914.4" width="28.7" height="28.7"/>
 <rect class="block" x="376.6" y="953.9" width="7.2" height="71.7"/>
 <rect class="block" x="376.6" y="824.8" width="7.2" height="78.9"/>
@@ -186,9 +202,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <text class="gname" x="501.2" y="307.2">Raymond</text>
 <rect class="corr" x="18" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="1260">Corridor, hall</text>
 <rect class="garden" x="140.8" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="166.8" y="1260">Outdoors (garden, yard)</text>
-<rect class="low" x="328.4" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="354.4" y="1260">Low obstacle (seen over)</text>
-<rect class="block" x="523.3" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="549.3" y="1260">Block, solid wall (stops sight)</text>
-<rect class="car exit" x="742" y="1249" width="11" height="14"/><text class="leg" x="768" y="1260">Lift</text>
+<rect class="mat" x="328.4" y="1253" width="11" height="6" rx="1"/><text class="leg" x="354.4" y="1260">Doormat (it wipes the soles)</text>
+<rect class="low" x="543.8" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="569.8" y="1260">Low obstacle (seen over)</text>
+<rect class="block" x="738.8" y="1250.5" width="18" height="11" stroke-width="1"/><text class="leg" x="764.8" y="1260">Block, solid wall (stops sight)</text>
+<rect class="car exit" x="957.4" y="1249" width="11" height="14"/><text class="leg" x="983.4" y="1260">Lift</text>
 <polygon class="cone" points="18,1276 36,1270 36,1282"/><text class="leg" x="44" y="1280">Their cone of sight (stopped by walls)</text>
 <line class="door" x1="285.6" y1="1276" x2="303.6" y2="1276"/><text class="leg" x="311.6" y="1280">Door</text>
 <line class="door-locked" x1="359" y1="1276" x2="377" y2="1276"/><text class="leg" x="385" y="1280">Locked door</text>

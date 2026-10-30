@@ -2,7 +2,7 @@
 <title>Training 4 · Sweet Tooth</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -34,47 +38,47 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 <rect class="bg" x="0" y="0" width="771" height="520" rx="10"/>
 <text class="title" x="18" y="30">Training 4 · Sweet Tooth</text>
-<text class="subtitle" x="18" y="50">Arrival in the west, exit in the east</text>
+<text class="subtitle" x="18" y="50">Arrival in the east, exit in the west · the game builds this room mirrored</text>
 <line class="scale" x1="643" y1="58" x2="753" y2="58"/><text class="sub" x="698" y="52" text-anchor="middle">5 m</text>
 <rect class="floor" x="18.1" y="86" width="734.8" height="352"/>
 <clipPath id="plan"><rect x="10.1" y="78" width="750.8" height="368"/></clipPath>
 <g clip-path="url(#plan)">
 <rect class="room" x="18.1" y="86" width="734.8" height="352"/>
-<rect class="block" x="568.1" y="86" width="140.8" height="149.6"/>
-<rect class="block" x="568.1" y="288.4" width="140.8" height="149.6"/>
-<rect class="void" x="18.1" y="86" width="44" height="140.8"/>
-<rect class="void" x="18.1" y="297.2" width="44" height="140.8"/>
+<rect class="block" x="62.1" y="86" width="140.8" height="149.6"/>
+<rect class="block" x="62.1" y="288.4" width="140.8" height="149.6"/>
 <rect class="void" x="708.9" y="86" width="44" height="140.8"/>
 <rect class="void" x="708.9" y="297.2" width="44" height="140.8"/>
-<rect class="car arrive" x="18.1" y="226.8" width="44" height="70.4"/>
-<text class="liftmark" x="40.1" y="267" text-anchor="middle">⇅</text>
-<rect class="car exit" x="708.9" y="226.8" width="44" height="70.4"/>
+<rect class="void" x="18.1" y="86" width="44" height="140.8"/>
+<rect class="void" x="18.1" y="297.2" width="44" height="140.8"/>
+<rect class="car arrive" x="708.9" y="226.8" width="44" height="70.4"/>
 <text class="liftmark" x="730.9" y="267" text-anchor="middle">⇅</text>
-<polygon class="cone" points="669.3,262 585.6,235.6 574.5,235.6 551.7,233.5 550.8,237.5 550,241.6 549.4,245.6 548.9,249.7 548.6,253.8 548.4,257.9 548.3,262 548.4,266.1 548.6,270.2 548.9,274.3 549.4,278.4 550,282.4 550.8,286.5 551.7,290.5 574.5,288.4 585.6,288.4"/>
-<line class="wall" x1="62.1" y1="438" x2="708.9" y2="438"/>
-<line class="wall" x1="708.9" y1="438" x2="708.9" y2="297.2"/>
-<line class="wall" x1="708.9" y1="297.2" x2="752.9" y2="297.2"/>
-<line class="wall" x1="752.9" y1="297.2" x2="752.9" y2="226.8"/>
-<line class="wall" x1="752.9" y1="226.8" x2="708.9" y2="226.8"/>
-<line class="wall" x1="708.9" y1="226.8" x2="708.9" y2="86"/>
-<line class="wall" x1="708.9" y1="86" x2="62.1" y2="86"/>
-<line class="wall" x1="62.1" y1="86" x2="62.1" y2="226.8"/>
-<line class="wall" x1="62.1" y1="297.2" x2="62.1" y2="438"/>
-<line class="wall" x1="62.1" y1="226.8" x2="18.1" y2="226.8"/>
-<line class="wall" x1="18.1" y1="226.8" x2="18.1" y2="297.2"/>
-<line class="wall" x1="18.1" y1="297.2" x2="62.1" y2="297.2"/>
-<circle class="prop" cx="141.3" cy="121.2" r="7"/>
-<circle class="spy" cx="40.1" cy="262" r="8"/>
-<line class="face" x1="669.3" y1="262" x2="654.3" y2="262"/>
-<circle class="guard" cx="669.3" cy="262" r="9"/>
+<rect class="car exit" x="18.1" y="226.8" width="44" height="70.4"/>
+<text class="liftmark" x="40.1" y="267" text-anchor="middle">⇅</text>
+<polygon class="cone" points="101.7,262 185.4,235.6 196.5,235.6 219.3,233.5 220.2,237.5 221,241.6 221.6,245.6 222.1,249.7 222.4,253.8 222.6,257.9 222.7,262 222.6,266.1 222.4,270.2 222.1,274.3 221.6,278.4 221,282.4 220.2,286.5 219.3,290.5 196.5,288.4 185.4,288.4"/>
+<line class="wall" x1="708.9" y1="438" x2="62.1" y2="438"/>
+<line class="wall" x1="62.1" y1="438" x2="62.1" y2="297.2"/>
+<line class="wall" x1="62.1" y1="297.2" x2="18.1" y2="297.2"/>
+<line class="wall" x1="18.1" y1="297.2" x2="18.1" y2="226.8"/>
+<line class="wall" x1="18.1" y1="226.8" x2="62.1" y2="226.8"/>
+<line class="wall" x1="62.1" y1="226.8" x2="62.1" y2="86"/>
+<line class="wall" x1="62.1" y1="86" x2="708.9" y2="86"/>
+<line class="wall" x1="708.9" y1="86" x2="708.9" y2="226.8"/>
+<line class="wall" x1="708.9" y1="297.2" x2="708.9" y2="438"/>
+<line class="wall" x1="708.9" y1="226.8" x2="752.9" y2="226.8"/>
+<line class="wall" x1="752.9" y1="226.8" x2="752.9" y2="297.2"/>
+<line class="wall" x1="752.9" y1="297.2" x2="708.9" y2="297.2"/>
+<circle class="prop" cx="629.7" cy="121.2" r="7"/>
+<circle class="spy" cx="730.9" cy="262" r="8"/>
+<line class="face" x1="101.7" y1="262" x2="116.7" y2="262"/>
+<circle class="guard" cx="101.7" cy="262" r="9"/>
 </g>
-<text class="sub" x="40.1" y="311.2">arrival lift</text>
-<text class="sub" x="688.7" y="311.2">exit lift</text>
-<text class="ini" x="141.3" y="124.7" text-anchor="middle" font-size="9">D</text>
-<text class="sub" x="151.3" y="125.2">donut box</text>
-<text class="ini" x="40.1" y="266" text-anchor="middle">E</text>
-<text class="ini" x="669.3" y="266" text-anchor="middle">B</text>
-<text class="gname" x="614" y="266.2">Brutus</text>
+<text class="sub" x="673.7" y="311.2">arrival lift</text>
+<text class="sub" x="40.1" y="311.2">exit lift</text>
+<text class="ini" x="629.7" y="124.7" text-anchor="middle" font-size="9">D</text>
+<text class="sub" x="639.7" y="125.2">donut box</text>
+<text class="ini" x="730.9" y="266" text-anchor="middle">E</text>
+<text class="ini" x="101.7" y="266" text-anchor="middle">B</text>
+<text class="gname" x="116.7" y="266.2">Brutus</text>
 <rect class="block" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Block, solid wall (stops sight)</text>
 <rect class="car arrive" x="236.7" y="471" width="11" height="14"/><text class="leg" x="262.7" y="482">Arrival lift</text>
 <rect class="car exit" x="346.5" y="471" width="11" height="14"/><text class="leg" x="372.5" y="482">Exit lift</text>

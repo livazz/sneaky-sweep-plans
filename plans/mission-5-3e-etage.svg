@@ -2,7 +2,7 @@
 <title>Golden Wisteria Manor · 3rd Floor</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -52,6 +56,24 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <rect class="room" x="588" y="434" width="60" height="252"/>
 <rect class="room" x="648" y="434" width="270" height="252"/>
 <rect class="room" x="918" y="434" width="60" height="252"/>
+<rect class="mat" x="133.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="133.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="267.6" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="448.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="448.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="567.6" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="763.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="763.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="897.6" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="133.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="133.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="267.6" y="606.8" width="15.6" height="38.4"/>
+<rect class="mat" x="448.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="448.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="567.6" y="606.8" width="15.6" height="38.4"/>
+<rect class="mat" x="763.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="763.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="897.6" y="606.8" width="15.6" height="38.4"/>
 <rect class="car exit" x="36" y="338" width="60" height="96"/>
 <text class="liftmark" x="66" y="391" text-anchor="middle">⇅</text>
 <line class="wall" x1="18" y1="434" x2="129" y2="434"/>
@@ -241,13 +263,14 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <text class="oname" x="126" y="617.2">Amiral Tempête</text>
 <text class="oname" x="756" y="617.2">Comtesse Venin</text>
 <rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Corridor, hall</text>
-<rect class="car exit" x="140.8" y="719" width="11" height="14"/><text class="leg" x="166.8" y="730">Lift</text>
-<line class="door" x1="211" y1="726" x2="229" y2="726"/><text class="leg" x="237" y="730">Door</text>
-<line class="duct" x1="284.4" y1="726" x2="302.4" y2="726"/><text class="leg" x="310.4" y="730">Duct</text>
-<circle class="riser" cx="365.8" cy="726" r="6"/><text class="leg" x="383.8" y="730">Shaft between floors</text>
-<rect class="poi" x="533.6" y="722.5" width="7" height="7" transform="rotate(45 537.1 726)"/><text class="leg" x="555.6" y="730">Point of interest</text>
-<rect class="hide" x="675.2" y="720.5" width="11" height="11" rx="5.5"/><text class="leg" x="701.2" y="730">Hiding spot</text>
-<rect class="grate" x="784.8" y="720.5" width="11" height="11" rx="2"/><text class="leg" x="810.8" y="730">Duct grate</text>
-<circle class="switch" cx="26" cy="746" r="5"/><text class="leg" x="44" y="750">Light switch</text>
-<circle class="other" cx="145.8" cy="746" r="5"/><text class="leg" x="163.8" y="750">Other character</text>
+<rect class="mat" x="140.8" y="723" width="11" height="6" rx="1"/><text class="leg" x="166.8" y="730">Doormat (it wipes the soles)</text>
+<rect class="car exit" x="356.2" y="719" width="11" height="14"/><text class="leg" x="382.2" y="730">Lift</text>
+<line class="door" x1="426.5" y1="726" x2="444.5" y2="726"/><text class="leg" x="452.5" y="730">Door</text>
+<line class="duct" x1="499.8" y1="726" x2="517.8" y2="726"/><text class="leg" x="525.8" y="730">Duct</text>
+<circle class="riser" cx="581.2" cy="726" r="6"/><text class="leg" x="599.2" y="730">Shaft between floors</text>
+<rect class="poi" x="749.1" y="722.5" width="7" height="7" transform="rotate(45 752.6 726)"/><text class="leg" x="771.1" y="730">Point of interest</text>
+<rect class="hide" x="18" y="740.5" width="11" height="11" rx="5.5"/><text class="leg" x="44" y="750">Hiding spot</text>
+<rect class="grate" x="127.6" y="740.5" width="11" height="11" rx="2"/><text class="leg" x="153.6" y="750">Duct grate</text>
+<circle class="switch" cx="245" cy="746" r="5"/><text class="leg" x="263" y="750">Light switch</text>
+<circle class="other" cx="364.8" cy="746" r="5"/><text class="leg" x="382.8" y="750">Other character</text>
 </svg>

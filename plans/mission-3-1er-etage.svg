@@ -2,7 +2,7 @@
 <title>Golden Wisteria Manor · 1st Floor</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -46,6 +50,18 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <rect class="room" x="18" y="434" width="330" height="252"/>
 <rect class="room" x="348" y="434" width="300" height="252"/>
 <rect class="room" x="648" y="434" width="330" height="252"/>
+<rect class="mat" x="163.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="413.6" width="38.4" height="15.6"/>
 <rect class="block" x="842.4" y="494" width="7.2" height="192"/>
 <rect class="low" x="800.4" y="533" width="42" height="153"/>
 <rect class="block" x="800.4" y="533" width="42" height="153"/>
@@ -186,18 +202,19 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <text class="oname" x="870" y="233.2">Malvo</text>
 <text class="oname" x="510" y="581.2">Grippesou</text>
 <rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Corridor, hall</text>
-<rect class="block" x="140.8" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="166.8" y="730">Block, solid wall (stops sight)</text>
-<rect class="low" x="359.5" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="385.5" y="730">Low obstacle (seen over)</text>
-<rect class="car exit" x="554.4" y="719" width="11" height="14"/><text class="leg" x="580.4" y="730">Lift</text>
-<polygon class="camcone" points="624.6,726 642.6,720 642.6,732"/><rect class="cam" x="624.6" y="723" width="8" height="6"/><text class="leg" x="650.6" y="730">Camera and its sweep</text>
-<line class="door" x1="797.4" y1="726" x2="815.4" y2="726"/><text class="leg" x="823.4" y="730">Door</text>
-<line class="door-badge" x1="18" y1="746" x2="36" y2="746"/><text class="leg" x="44" y="750">Restricted door (outfit or badge)</text>
-<line class="door-locked" x1="261.5" y1="746" x2="279.5" y2="746"/><text class="leg" x="287.5" y="750">Locked door</text>
-<line class="duct" x1="377.4" y1="746" x2="395.4" y2="746"/><text class="leg" x="403.4" y="750">Duct</text>
-<circle class="riser" cx="458.7" cy="746" r="6"/><text class="leg" x="476.7" y="750">Shaft between floors</text>
-<rect class="poi" x="626.6" y="742.5" width="7" height="7" transform="rotate(45 630.1 746)"/><text class="leg" x="648.6" y="750">Point of interest</text>
-<rect class="hide" x="768.2" y="740.5" width="11" height="11" rx="5.5"/><text class="leg" x="794.2" y="750">Hiding spot</text>
-<rect class="grate" x="18" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="44" y="770">Duct grate</text>
-<circle class="switch" cx="135.4" cy="766" r="5"/><text class="leg" x="153.4" y="770">Light switch</text>
-<circle class="other" cx="255.2" cy="766" r="5"/><text class="leg" x="273.2" y="770">Other character</text>
+<rect class="mat" x="140.8" y="723" width="11" height="6" rx="1"/><text class="leg" x="166.8" y="730">Doormat (it wipes the soles)</text>
+<rect class="block" x="356.2" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="382.2" y="730">Block, solid wall (stops sight)</text>
+<rect class="low" x="574.9" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="600.9" y="730">Low obstacle (seen over)</text>
+<rect class="car exit" x="769.8" y="719" width="11" height="14"/><text class="leg" x="795.8" y="730">Lift</text>
+<polygon class="camcone" points="18,746 36,740 36,752"/><rect class="cam" x="18" y="743" width="8" height="6"/><text class="leg" x="44" y="750">Camera and its sweep</text>
+<line class="door" x1="190.7" y1="746" x2="208.7" y2="746"/><text class="leg" x="216.7" y="750">Door</text>
+<line class="door-badge" x1="264.1" y1="746" x2="282.1" y2="746"/><text class="leg" x="290.1" y="750">Restricted door (outfit or badge)</text>
+<line class="door-locked" x1="507.6" y1="746" x2="525.6" y2="746"/><text class="leg" x="533.6" y="750">Locked door</text>
+<line class="duct" x1="623.4" y1="746" x2="641.4" y2="746"/><text class="leg" x="649.4" y="750">Duct</text>
+<circle class="riser" cx="704.8" cy="746" r="6"/><text class="leg" x="722.8" y="750">Shaft between floors</text>
+<rect class="poi" x="22" y="762.5" width="7" height="7" transform="rotate(45 25.5 766)"/><text class="leg" x="44" y="770">Point of interest</text>
+<rect class="hide" x="163.6" y="760.5" width="11" height="11" rx="5.5"/><text class="leg" x="189.6" y="770">Hiding spot</text>
+<rect class="grate" x="273.2" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="299.2" y="770">Duct grate</text>
+<circle class="switch" cx="390.6" cy="766" r="5"/><text class="leg" x="408.6" y="770">Light switch</text>
+<circle class="other" cx="510.4" cy="766" r="5"/><text class="leg" x="528.4" y="770">Other character</text>
 </svg>

@@ -2,7 +2,7 @@
 <title>Training 7 · Overhead</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -43,6 +47,12 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <rect class="room" x="136.9" y="86" width="140.8" height="352"/>
 <rect class="room" x="277.7" y="86" width="233.2" height="352"/>
 <rect class="room" x="510.9" y="86" width="242" height="352"/>
+<rect class="mat" x="495.9" y="309.5" width="11.4" height="28.2"/>
+<rect class="mat" x="514.4" y="309.5" width="11.4" height="28.2"/>
+<rect class="mat" x="262.7" y="186.3" width="11.4" height="28.2"/>
+<rect class="mat" x="281.2" y="186.3" width="11.4" height="28.2"/>
+<rect class="mat" x="121.9" y="247.9" width="11.4" height="28.2"/>
+<rect class="mat" x="140.4" y="247.9" width="11.4" height="28.2"/>
 <rect class="block" x="62.1" y="86" width="74.8" height="149.6"/>
 <rect class="block" x="62.1" y="288.4" width="74.8" height="149.6"/>
 <rect class="void" x="18.1" y="86" width="44" height="140.8"/>
@@ -159,16 +169,17 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <text class="gname" x="101.3" y="143">Sacha</text>
 <text class="ini" x="150.1" y="389.2" text-anchor="middle">D</text>
 <text class="gname" x="107.7" y="389.4">Dédé</text>
-<rect class="block" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Block, solid wall (stops sight)</text>
-<rect class="car arrive" x="236.7" y="471" width="11" height="14"/><text class="leg" x="262.7" y="482">Arrival lift</text>
-<rect class="car exit" x="346.5" y="471" width="11" height="14"/><text class="leg" x="372.5" y="482">Exit lift</text>
-<polygon class="cone" points="440,478 458,472 458,484"/><text class="leg" x="466" y="482">Their cone of sight (stopped by walls)</text>
-<line class="door-locked" x1="18" y1="498" x2="36" y2="498"/><text class="leg" x="44" y="502">Locked door</text>
-<line class="duct" x1="133.8" y1="498" x2="151.8" y2="498"/><text class="leg" x="159.8" y="502">Duct</text>
-<rect class="grate" x="207.2" y="492.5" width="11" height="11" rx="2"/><text class="leg" x="233.2" y="502">Duct grate</text>
-<rect class="prop" x="316.6" y="492.5" width="11" height="11" rx="2"/><text class="leg" x="342.6" y="502">Noisy prop, and how far its fall carries (6 m)</text>
-<circle class="spy" cx="26" cy="518" r="6"/><text class="leg" x="44" y="522">The spy, at the start</text>
-<circle class="guard" cx="194.9" cy="518" r="5"/><line class="face" x1="194.9" y1="518" x2="204.9" y2="518"/><text class="leg" x="212.9" y="522">Guard at a post (the line: where they look)</text>
-<circle class="guard" cx="489.2" cy="518" r="6"/><text class="leg" x="507.2" y="522">Guard</text>
-<line class="round" x1="18" y1="538" x2="36" y2="538"/><text class="leg" x="44" y="542">Their round (the dot walks it), its stops</text>
+<rect class="mat" x="18" y="475" width="11" height="6" rx="1"/><text class="leg" x="44" y="482">Doormat (it wipes the soles)</text>
+<rect class="block" x="233.4" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="259.4" y="482">Block, solid wall (stops sight)</text>
+<rect class="car arrive" x="452.1" y="471" width="11" height="14"/><text class="leg" x="478.1" y="482">Arrival lift</text>
+<rect class="car exit" x="562" y="471" width="11" height="14"/><text class="leg" x="588" y="482">Exit lift</text>
+<polygon class="cone" points="18,498 36,492 36,504"/><text class="leg" x="44" y="502">Their cone of sight (stopped by walls)</text>
+<line class="door-locked" x1="285.6" y1="498" x2="303.6" y2="498"/><text class="leg" x="311.6" y="502">Locked door</text>
+<line class="duct" x1="401.5" y1="498" x2="419.5" y2="498"/><text class="leg" x="427.5" y="502">Duct</text>
+<rect class="grate" x="474.8" y="492.5" width="11" height="11" rx="2"/><text class="leg" x="500.8" y="502">Duct grate</text>
+<rect class="prop" x="18" y="512.5" width="11" height="11" rx="2"/><text class="leg" x="44" y="522">Noisy prop, and how far its fall carries (6 m)</text>
+<circle class="spy" cx="334.3" cy="518" r="6"/><text class="leg" x="352.3" y="522">The spy, at the start</text>
+<circle class="guard" cx="26" cy="538" r="5"/><line class="face" x1="26" y1="538" x2="36" y2="538"/><text class="leg" x="44" y="542">Guard at a post (the line: where they look)</text>
+<circle class="guard" cx="320.3" cy="538" r="6"/><text class="leg" x="338.3" y="542">Guard</text>
+<line class="round" x1="392.1" y1="538" x2="410.1" y2="538"/><text class="leg" x="418.1" y="542">Their round (the dot walks it), its stops</text>
 </svg>

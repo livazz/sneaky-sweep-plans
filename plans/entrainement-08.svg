@@ -2,7 +2,7 @@
 <title>Training 8 · Dress Code</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -34,65 +38,65 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
 <rect class="bg" x="0" y="0" width="771" height="540" rx="10"/>
 <text class="title" x="18" y="30">Training 8 · Dress Code</text>
-<text class="subtitle" x="18" y="50">Arrival in the west, exit in the east</text>
+<text class="subtitle" x="18" y="50">Arrival in the east, exit in the west · the game builds this room mirrored</text>
 <line class="scale" x1="643" y1="58" x2="753" y2="58"/><text class="sub" x="698" y="52" text-anchor="middle">5 m</text>
 <rect class="floor" x="18.1" y="86" width="734.8" height="352"/>
 <clipPath id="plan"><rect x="10.1" y="78" width="750.8" height="368"/></clipPath>
 <g clip-path="url(#plan)">
 <rect class="room" x="18.1" y="86" width="734.8" height="352"/>
-<rect class="block" x="568.1" y="86" width="140.8" height="149.6"/>
-<rect class="block" x="568.1" y="288.4" width="140.8" height="149.6"/>
-<rect class="void" x="18.1" y="86" width="44" height="140.8"/>
-<rect class="void" x="18.1" y="297.2" width="44" height="140.8"/>
+<rect class="block" x="62.1" y="86" width="140.8" height="149.6"/>
+<rect class="block" x="62.1" y="288.4" width="140.8" height="149.6"/>
 <rect class="void" x="708.9" y="86" width="44" height="140.8"/>
 <rect class="void" x="708.9" y="297.2" width="44" height="140.8"/>
-<rect class="car arrive" x="18.1" y="226.8" width="44" height="70.4"/>
-<text class="liftmark" x="40.1" y="267" text-anchor="middle">⇅</text>
-<rect class="car exit" x="708.9" y="226.8" width="44" height="70.4"/>
+<rect class="void" x="18.1" y="86" width="44" height="140.8"/>
+<rect class="void" x="18.1" y="297.2" width="44" height="140.8"/>
+<rect class="car arrive" x="708.9" y="226.8" width="44" height="70.4"/>
 <text class="liftmark" x="730.9" y="267" text-anchor="middle">⇅</text>
-<polygon class="cone" points="290.9,394 406.3,430.4 407.5,426.4 408.5,422.5 409.4,418.5 410.2,414.4 410.8,410.4 411.3,406.3 411.6,402.2 411.8,398.1 411.9,394 411.8,389.9 411.6,385.8 411.3,381.7 410.8,377.6 410.2,373.6 409.4,369.5 408.5,365.5 407.5,361.6 406.3,357.6"/>
-<polygon class="cone" points="493.3,130 568.1,153.6 568.1,150.8 568.1,148.1 568.1,145.4 568.1,142.8 568.1,140.2 568.1,137.6 568.1,135.1 568.1,132.5 568.1,130 568.1,127.5 568.1,124.9 568.1,122.4 568.1,119.8 568.1,117.2 568.1,114.6 568.1,111.9 568.1,109.2 568.1,106.4"/>
-<polygon class="cone" points="669.3,262 585.6,235.6 574.5,235.6 551.7,233.5 550.8,237.5 550,241.6 549.4,245.6 548.9,249.7 548.6,253.8 548.4,257.9 548.3,262 548.4,266.1 548.6,270.2 548.9,274.3 549.4,278.4 550,282.4 550.8,286.5 551.7,290.5 574.5,288.4 585.6,288.4"/>
-<line class="wall" x1="62.1" y1="438" x2="708.9" y2="438"/>
-<line class="wall" x1="708.9" y1="438" x2="708.9" y2="297.2"/>
-<line class="wall" x1="708.9" y1="297.2" x2="752.9" y2="297.2"/>
-<line class="wall" x1="752.9" y1="297.2" x2="752.9" y2="226.8"/>
-<line class="wall" x1="752.9" y1="226.8" x2="708.9" y2="226.8"/>
-<line class="wall" x1="708.9" y1="226.8" x2="708.9" y2="86"/>
-<line class="wall" x1="708.9" y1="86" x2="62.1" y2="86"/>
-<line class="wall" x1="62.1" y1="86" x2="62.1" y2="226.8"/>
-<line class="wall" x1="62.1" y1="297.2" x2="62.1" y2="438"/>
-<line class="wall" x1="62.1" y1="226.8" x2="18.1" y2="226.8"/>
-<line class="wall" x1="18.1" y1="226.8" x2="18.1" y2="297.2"/>
-<line class="wall" x1="18.1" y1="297.2" x2="62.1" y2="297.2"/>
-<circle class="outfit" cx="106.1" cy="402.8" r="7"/>
-<circle class="spy" cx="40.1" cy="262" r="8"/>
-<line class="round" x1="290.9" y1="394" x2="290.9" y2="130" marker-start="url(#ar)" marker-end="url(#ar)"/>
-<circle class="ghost" r="6"><animateMotion dur="28s" repeatCount="indefinite" path="M290.9,394 L290.9,130 L290.9,394" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.143;0.5;0.643;1" calcMode="linear"/></circle>
-<circle class="stop" cx="290.9" cy="394" r="2.5"/>
-<circle class="stop" cx="290.9" cy="130" r="2.5"/>
-<line class="face" x1="290.9" y1="394" x2="305.9" y2="394"/>
-<circle class="guard" cx="290.9" cy="394" r="9"/>
-<line class="round" x1="493.3" y1="130" x2="493.3" y2="394" marker-start="url(#ar)" marker-end="url(#ar)"/>
-<circle class="ghost" r="6"><animateMotion dur="28s" repeatCount="indefinite" path="M493.3,130 L493.3,394 L493.3,130" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.143;0.5;0.643;1" calcMode="linear"/></circle>
-<circle class="stop" cx="493.3" cy="130" r="2.5"/>
-<circle class="stop" cx="493.3" cy="394" r="2.5"/>
-<line class="face" x1="493.3" y1="130" x2="508.3" y2="130"/>
-<circle class="guard" cx="493.3" cy="130" r="9"/>
-<line class="face" x1="669.3" y1="262" x2="654.3" y2="262"/>
-<circle class="guard" cx="669.3" cy="262" r="9"/>
+<rect class="car exit" x="18.1" y="226.8" width="44" height="70.4"/>
+<text class="liftmark" x="40.1" y="267" text-anchor="middle">⇅</text>
+<polygon class="cone" points="480.1,394 364.7,430.4 363.5,426.4 362.5,422.5 361.6,418.5 360.8,414.4 360.2,410.4 359.7,406.3 359.4,402.2 359.2,398.1 359.1,394 359.2,389.9 359.4,385.8 359.7,381.7 360.2,377.6 360.8,373.6 361.6,369.5 362.5,365.5 363.5,361.6 364.7,357.6"/>
+<polygon class="cone" points="277.7,130 202.9,153.6 202.9,150.8 202.9,148.1 202.9,145.4 202.9,142.8 202.9,140.2 202.9,137.6 202.9,135.1 202.9,132.5 202.9,130 202.9,127.5 202.9,124.9 202.9,122.4 202.9,119.8 202.9,117.2 202.9,114.6 202.9,111.9 202.9,109.2 202.9,106.4"/>
+<polygon class="cone" points="101.7,262 185.4,235.6 196.5,235.6 219.3,233.5 220.2,237.5 221,241.6 221.6,245.6 222.1,249.7 222.4,253.8 222.6,257.9 222.7,262 222.6,266.1 222.4,270.2 222.1,274.3 221.6,278.4 221,282.4 220.2,286.5 219.3,290.5 196.5,288.4 185.4,288.4"/>
+<line class="wall" x1="708.9" y1="438" x2="62.1" y2="438"/>
+<line class="wall" x1="62.1" y1="438" x2="62.1" y2="297.2"/>
+<line class="wall" x1="62.1" y1="297.2" x2="18.1" y2="297.2"/>
+<line class="wall" x1="18.1" y1="297.2" x2="18.1" y2="226.8"/>
+<line class="wall" x1="18.1" y1="226.8" x2="62.1" y2="226.8"/>
+<line class="wall" x1="62.1" y1="226.8" x2="62.1" y2="86"/>
+<line class="wall" x1="62.1" y1="86" x2="708.9" y2="86"/>
+<line class="wall" x1="708.9" y1="86" x2="708.9" y2="226.8"/>
+<line class="wall" x1="708.9" y1="297.2" x2="708.9" y2="438"/>
+<line class="wall" x1="708.9" y1="226.8" x2="752.9" y2="226.8"/>
+<line class="wall" x1="752.9" y1="226.8" x2="752.9" y2="297.2"/>
+<line class="wall" x1="752.9" y1="297.2" x2="708.9" y2="297.2"/>
+<circle class="outfit" cx="664.9" cy="402.8" r="7"/>
+<circle class="spy" cx="730.9" cy="262" r="8"/>
+<line class="round" x1="480.1" y1="394" x2="480.1" y2="130" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<circle class="ghost" r="6"><animateMotion dur="28s" repeatCount="indefinite" path="M480.1,394 L480.1,130 L480.1,394" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.143;0.5;0.643;1" calcMode="linear"/></circle>
+<circle class="stop" cx="480.1" cy="394" r="2.5"/>
+<circle class="stop" cx="480.1" cy="130" r="2.5"/>
+<line class="face" x1="480.1" y1="394" x2="465.1" y2="394"/>
+<circle class="guard" cx="480.1" cy="394" r="9"/>
+<line class="round" x1="277.7" y1="130" x2="277.7" y2="394" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<circle class="ghost" r="6"><animateMotion dur="28s" repeatCount="indefinite" path="M277.7,130 L277.7,394 L277.7,130" keyPoints="0;0;0.5;0.5;1" keyTimes="0;0.143;0.5;0.643;1" calcMode="linear"/></circle>
+<circle class="stop" cx="277.7" cy="130" r="2.5"/>
+<circle class="stop" cx="277.7" cy="394" r="2.5"/>
+<line class="face" x1="277.7" y1="130" x2="262.7" y2="130"/>
+<circle class="guard" cx="277.7" cy="130" r="9"/>
+<line class="face" x1="101.7" y1="262" x2="116.7" y2="262"/>
+<circle class="guard" cx="101.7" cy="262" r="9"/>
 </g>
-<text class="sub" x="40.1" y="311.2">arrival lift</text>
-<text class="sub" x="688.7" y="311.2">exit lift</text>
-<text class="ini" x="106.1" y="406.3" text-anchor="middle" font-size="9">T</text>
-<text class="sub" x="116.1" y="406.8">Guard uniform</text>
-<text class="ini" x="40.1" y="266" text-anchor="middle">E</text>
-<text class="ini" x="290.9" y="398" text-anchor="middle">G</text>
-<text class="gname" x="305.9" y="398.2">Gaston</text>
-<text class="ini" x="493.3" y="134" text-anchor="middle">I</text>
-<text class="gname" x="508.3" y="134.2">Igor</text>
-<text class="ini" x="669.3" y="266" text-anchor="middle">H</text>
-<text class="gname" x="614" y="266.2">Hector</text>
+<text class="sub" x="673.7" y="311.2">arrival lift</text>
+<text class="sub" x="40.1" y="311.2">exit lift</text>
+<text class="ini" x="664.9" y="406.3" text-anchor="middle" font-size="9">T</text>
+<text class="sub" x="674.9" y="406.8">Guard uniform</text>
+<text class="ini" x="730.9" y="266" text-anchor="middle">E</text>
+<text class="ini" x="480.1" y="398" text-anchor="middle">G</text>
+<text class="gname" x="495.1" y="398.2">Gaston</text>
+<text class="ini" x="277.7" y="134" text-anchor="middle">I</text>
+<text class="gname" x="292.7" y="134.2">Igor</text>
+<text class="ini" x="101.7" y="266" text-anchor="middle">H</text>
+<text class="gname" x="116.7" y="266.2">Hector</text>
 <rect class="block" x="18" y="472.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="482">Block, solid wall (stops sight)</text>
 <rect class="car arrive" x="236.7" y="471" width="11" height="14"/><text class="leg" x="262.7" y="482">Arrival lift</text>
 <rect class="car exit" x="346.5" y="471" width="11" height="14"/><text class="leg" x="372.5" y="482">Exit lift</text>

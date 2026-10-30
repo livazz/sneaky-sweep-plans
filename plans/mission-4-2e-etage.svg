@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 788" width="996" height="788" role="img" aria-label="Golden Wisteria Manor · 2nd Floor">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 808" width="996" height="808" role="img" aria-label="Golden Wisteria Manor · 2nd Floor">
 <title>Golden Wisteria Manor · 2nd Floor</title>
 <style>
 svg{--bg:#11171d;--paper:#18212a;--ink:#e4e9ee;--muted:#9aa9b8;--line:#c9d4df;--block:#3a4552;--corridor:#1f2b22;--garden:#1d2e1f;--snow:#25313c;
---guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
+--light:#f2c14e;--board:#8a6a44;--guard:#f07a54;--duct:#a594f2;--door:#f0646e;--badge:#e9b44c;--spy:#3fc39d;--other:#95a3b0;--prop:#e9b44c;--water:#6fb3f0;--juice:#f0a030;--mat:#9a7448;--hide:#5fc488;--outfit:#e47bbf;--switch:#f2cd4a;--cam:#6ea8e8;--poi:#aebbc8}
 text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bg{fill:var(--bg)}.floor{fill:none}.void{fill:var(--bg)}.house{fill:var(--block);fill-opacity:.35}
 .room{fill:var(--paper)}.corr{fill:var(--corridor)}.garden{fill:var(--garden)}.snow{fill:var(--snow)}
@@ -22,6 +22,10 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .hide{fill:var(--hide);fill-opacity:.85}.outfit{fill:var(--outfit)}.switch{fill:var(--switch);stroke:var(--line);stroke-width:.8}.item{fill:var(--prop)}.prop{fill:var(--prop)}
 .reach{fill:var(--prop);fill-opacity:.06;stroke:var(--prop);stroke-opacity:.6;stroke-width:1;stroke-dasharray:3 4}
 .water{fill:var(--water);fill-opacity:.3;stroke:var(--water);stroke-width:1}
+.juice{fill:var(--juice);fill-opacity:.4;stroke:var(--juice);stroke-width:1}
+.mat{fill:var(--mat);fill-opacity:.85;stroke:none}
+.sline{stroke:var(--light);stroke-width:1.5;stroke-dasharray:5 4}.stick{stroke:var(--light);stroke-width:1.5}.sdisc{fill:var(--light);fill-opacity:.25;stroke:var(--light);stroke-width:1}.scab{fill:var(--light)}
+.board{fill:var(--board);fill-opacity:.85}
 .poi{fill:var(--poi)}
 .scale{stroke:var(--ink);stroke-width:2}
 .title{font-size:20px;font-weight:600;fill:var(--ink)}.subtitle{font-size:13px;fill:var(--muted)}
@@ -32,7 +36,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 .leg{font-size:12px;fill:var(--muted)}
 </style>
 <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" class="arrow" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-<rect class="bg" x="0" y="0" width="996" height="788" rx="10"/>
+<rect class="bg" x="0" y="0" width="996" height="808" rx="10"/>
 <text class="title" x="18" y="30">Golden Wisteria Manor · 2nd Floor</text>
 <text class="subtitle" x="18" y="50">Main mission, at the start of the game · the building</text>
 <line class="scale" x1="828" y1="58" x2="978" y2="58"/><text class="sub" x="903" y="52" text-anchor="middle">5 m</text>
@@ -50,6 +54,22 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <rect class="room" x="588" y="86" width="60" height="252"/>
 <rect class="room" x="648" y="86" width="60" height="252"/>
 <rect class="room" x="288" y="434" width="60" height="252"/>
+<rect class="mat" x="163.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="317.6" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="342.8" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="163.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="478.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="438.8" width="38.4" height="15.6"/>
+<rect class="mat" x="793.8" y="413.6" width="38.4" height="15.6"/>
+<rect class="mat" x="267.6" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="567.6" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="712.8" y="126.8" width="15.6" height="38.4"/>
+<rect class="mat" x="267.6" y="606.8" width="15.6" height="38.4"/>
 <rect class="block" x="366" y="594.8" width="84" height="14.4"/>
 <rect class="low" x="414" y="576.2" width="48" height="10.8"/>
 <rect class="low" x="639.6" y="530" width="7.2" height="72"/>
@@ -276,20 +296,21 @@ text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <text class="oname" x="270" y="209.2">Marco</text>
 <text class="oname" x="160.4" y="194">Dr Lancelot</text>
 <rect class="corr" x="18" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="44" y="730">Corridor, hall</text>
-<rect class="block" x="140.8" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="166.8" y="730">Block, solid wall (stops sight)</text>
-<rect class="low" x="359.5" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="385.5" y="730">Low obstacle (seen over)</text>
-<rect class="car exit" x="554.4" y="719" width="11" height="14"/><text class="leg" x="580.4" y="730">Lift</text>
-<polygon class="cone" points="624.6,726 642.6,720 642.6,732"/><text class="leg" x="650.6" y="730">Their cone of sight (stopped by walls)</text>
-<line class="door" x1="892.3" y1="726" x2="910.3" y2="726"/><text class="leg" x="918.3" y="730">Door</text>
-<line class="door-badge" x1="18" y1="746" x2="36" y2="746"/><text class="leg" x="44" y="750">Restricted door (outfit or badge)</text>
-<line class="duct" x1="261.5" y1="746" x2="279.5" y2="746"/><text class="leg" x="287.5" y="750">Duct</text>
-<circle class="riser" cx="342.9" cy="746" r="6"/><text class="leg" x="360.9" y="750">Shaft between floors</text>
-<rect class="poi" x="510.8" y="742.5" width="7" height="7" transform="rotate(45 514.3 746)"/><text class="leg" x="532.8" y="750">Point of interest</text>
-<circle class="outfit" cx="660.4" cy="746" r="6"/><text class="leg" x="678.4" y="750">Outfit to take</text>
-<rect class="hide" x="781.6" y="740.5" width="11" height="11" rx="5.5"/><text class="leg" x="807.6" y="750">Hiding spot</text>
-<rect class="grate" x="18" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="44" y="770">Duct grate</text>
-<circle class="switch" cx="135.4" cy="766" r="5"/><text class="leg" x="153.4" y="770">Light switch</text>
-<circle class="other" cx="255.2" cy="766" r="5"/><text class="leg" x="273.2" y="770">Other character</text>
-<line class="round" x1="388.9" y1="766" x2="406.9" y2="766"/><text class="leg" x="414.9" y="770">Their round (the dot walks it), its stops</text>
-<circle class="guard" cx="678" cy="766" r="6"/><text class="leg" x="696" y="770">Guard</text>
+<rect class="mat" x="140.8" y="723" width="11" height="6" rx="1"/><text class="leg" x="166.8" y="730">Doormat (it wipes the soles)</text>
+<rect class="block" x="356.2" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="382.2" y="730">Block, solid wall (stops sight)</text>
+<rect class="low" x="574.9" y="720.5" width="18" height="11" stroke-width="1"/><text class="leg" x="600.9" y="730">Low obstacle (seen over)</text>
+<rect class="car exit" x="769.8" y="719" width="11" height="14"/><text class="leg" x="795.8" y="730">Lift</text>
+<polygon class="cone" points="18,746 36,740 36,752"/><text class="leg" x="44" y="750">Their cone of sight (stopped by walls)</text>
+<line class="door" x1="285.6" y1="746" x2="303.6" y2="746"/><text class="leg" x="311.6" y="750">Door</text>
+<line class="door-badge" x1="359" y1="746" x2="377" y2="746"/><text class="leg" x="385" y="750">Restricted door (outfit or badge)</text>
+<line class="duct" x1="602.5" y1="746" x2="620.5" y2="746"/><text class="leg" x="628.5" y="750">Duct</text>
+<circle class="riser" cx="683.9" cy="746" r="6"/><text class="leg" x="701.9" y="750">Shaft between floors</text>
+<rect class="poi" x="22" y="762.5" width="7" height="7" transform="rotate(45 25.5 766)"/><text class="leg" x="44" y="770">Point of interest</text>
+<circle class="outfit" cx="171.6" cy="766" r="6"/><text class="leg" x="189.6" y="770">Outfit to take</text>
+<rect class="hide" x="292.9" y="760.5" width="11" height="11" rx="5.5"/><text class="leg" x="318.9" y="770">Hiding spot</text>
+<rect class="grate" x="402.5" y="760.5" width="11" height="11" rx="2"/><text class="leg" x="428.5" y="770">Duct grate</text>
+<circle class="switch" cx="519.8" cy="766" r="5"/><text class="leg" x="537.8" y="770">Light switch</text>
+<circle class="other" cx="639.6" cy="766" r="5"/><text class="leg" x="657.6" y="770">Other character</text>
+<line class="round" x1="18" y1="786" x2="36" y2="786"/><text class="leg" x="44" y="790">Their round (the dot walks it), its stops</text>
+<circle class="guard" cx="307.1" cy="786" r="6"/><text class="leg" x="325.1" y="790">Guard</text>
 </svg>
